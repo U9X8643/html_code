@@ -1,0 +1,42 @@
+<!DOCTYE　HTML>  //文档类型声明
+<html>              //表示HTML文档开始
+<head>              //包含文档元数据开始
+<meta charset="utf-8">  //编码
+<title>变色龙</title>   //设置文档标题
+ 
+<link id="l1" rel="stylesheet" type="text/css" href="css1.css" />
+<script>
+function skin1()
+{
+    var oL=document.getElementById('l1');
+    oL.href='css1.css';
+}
+
+function skin2()
+{
+    if (condition) {
+        
+    } else {
+        
+    }
+    var oL=document.getElementById('l1');
+    oL.href='css2.css';
+    
+}
+
+</script>
+
+
+<body>              //表示HTML文档的内容
+
+<a href="http://www.baidu.com">百度</a>  //超链接标签
+<br/>
+<input type="button" value="皮肤1" onclick="skin1()"/>
+<input type="button" value="皮肤2" onclick="skin2()"/>
+
+</body>
+
+</head>
+
+
+</html>
